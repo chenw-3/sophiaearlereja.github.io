@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<header>
+<style type="text/css">
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  text-align: center;
+  background-color: red;
+   }
+body {
+     background-color: khaki;
+	 text-align: center;
+}
+nav {
+	padding: 20px;
+	background-color: goldenrod;
+	text-align: center;
+	line-height: 2px;
+	word-spacing: 50px;
+  font-size: 20px;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: none;
+    flex-flow: wrap;
+}
+
+nav a {
+	padding: 0.25em;
+	color: ivory;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover {
+    color: red;
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+#formcontainer {
+    text-align: center;
+    width: 70%;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+</style>    
+</header>
+<div class=logo>
+    <a href="website script.html"><img src="images/newlogo.jpg" alt="Logo" title="Sophia Real Estate" width= "350px" height="250px"/></a>
+  </div>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="listings.html">Listings</a></li>
+            <li><a href="#">Consultation</a></li>
+            <li><a href="#">Reviews</a></li>
+        </ul>
+        </nav>
+
+<div id="formcontainer">
+    <form id="Appointments" name="Appointments" method="POST" action="javascript:submitform();">
+     <fieldset><legend>Schedule an Appointment</legend>
+    <label for="firstname"> First Name:</label> 
+    <input type="text" name="firstname" id="first"/>
+    
+    </br>
+
+    <label for="lastname">Last Name:</label>
+    <input type ="text" name="lastname" id="last"/>
+
+    </br>
+
+    <label for="phonenumber">Phone Number:</label>
+    <input type="text" name="phonenumber" id="phone">
+
+    </br>
+
+    <label for="emailaddress">E-mail:</label>
+    <input type="text" name="email" id="email">
+
+    </br>
+    <label for="Location">Location:</label>
+    <input type="text" name="location" id="location">
+
+</br>
+    </fieldset>  
+</br>
+    <fieldset><legend></legend>
+        <label for="looking">I would like assistance to:</label>
+    <select name="looking" id="looking">
+        <option value="buy">Buy</option>
+        <option value="sell">Sell</option>
+        <option value="rent">Rent</option>
+    </select>
+    </fieldset>
+    <input type="submit" value="Submit" class="button"/>
+    </form>
+</div>
