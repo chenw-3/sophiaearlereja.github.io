@@ -281,5 +281,7 @@ h2, h3 {
         width: 390px;
         margin-right: 400px;
     }
-   
+   .dot {
+    display: none;
+   }
 }
