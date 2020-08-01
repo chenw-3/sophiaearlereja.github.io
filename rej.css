@@ -163,7 +163,6 @@ footer {
   background-color: red  ;
   padding: 10px;
   color:ivory;
-  width: 100%;
 }
 
 footer a {
@@ -276,10 +275,13 @@ h2, h3 {
         width: 1000px;
     }
     footer {
-        padding-left: 100px;
-        margin-right: 500px;
-        width: 100% !important;
-        margin-right: 400px;
+        display: inline-block;
+        text-align: center;
+        margin-left: -300px;
+        margin-right: -1000px;
+        background-color: red !important;
+    
+    }
         
    .dot {
     display: none;
