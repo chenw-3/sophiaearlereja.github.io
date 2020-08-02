@@ -293,8 +293,9 @@ h2, h3 {
         display: inline-block;
         text-align: center;
         width: 400px !important;
-        margin-top: -50px;;
-        padding-top: 3px;
+        margin-top: -190px;
+        margin-bottom: 100px;
+        
       } 
     footer h2 {
      font-size: 30px !important;
