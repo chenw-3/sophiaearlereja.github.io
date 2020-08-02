@@ -225,7 +225,7 @@ h2, h3 {
 
 @media screen and (max-width: 400px) {
     body {
-      height: 800px;
+      height: 850px;
       width: 400px !important;
       padding-right: 0px;
       margin-right: 0px;
