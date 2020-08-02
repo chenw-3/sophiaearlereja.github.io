@@ -78,7 +78,6 @@ color: red;
 .slideshow-container {
   max-width: 1000px;
   position: relative;
-  margin: auto;
 }
 
 /* Next & previous buttons */
@@ -203,7 +202,7 @@ h2, h3 {
   to {opacity: 1}
 }
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 541px) {
     nav ul {
         display: flex;
         flex-flow: nowrap;
@@ -224,71 +223,82 @@ h2, h3 {
     }
 }
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 400px) {
     body {
-      width: 600px;
+      height: 800px;
 
     }
     .header {
-        width: 1900px;
-        height: 600px;
+        width: 400px;
+        height: 200px;
     }
     nav {
-        width: 1900px;
+        width: 400px;
+        height: 50px
     }
     nav ul {
-        width: 1500px;
-        font-size: 55px;
+        width: 400px;
+        font-size: 15px;
+        padding-right: 70px !important;
+        padding-top: 2.5px;
     }
+    nav ul li {
+       
+    }
+
     .headername h1 {
-        font-size: 100px;
-        padding-left: 400px; 
+        font-size: 30px;
+        padding-left: 10px; 
     }
     .slogan {
-        font-size: 70px;
-        padding-left: 460px;
+        font-size: 30px;
+        padding-right: 5px;
     }
-    figure {
-        width: 1590px;
-        padding-right: 150px;
-        padding-top: 500px;
+    .slideshow-container {
+        width: 1000px;
+        height: 500px;
+        margin-top: -10px !important;
+        padding-right: 600px !important;
     }
     figcaption {
-        left: 360px;
-        font-size: 50px;
+        bottom: 5px;
+        left: 99px;
+        padding-left: 20px;
+        font-size: 15px;
         background-color: white;
-        width: 400px;
-        margin-left: 200px;
+        width: 200px;
         text-align: center;        
     }
      .next {
-        left: 990px;
-        top: -500px !important;
+        position: relative;
+        left: 100px;
+        top: -120px;
 
     }
     .prev {
-        left: 150px;
-        top: -500px !important;
+        left: -100px;
+        top: -120px !important;
     
     }
     hr {
-        width: 10000px;
+      width: 400px;
+      margin-top: -250px;
+      margin-bottom: 100px;
     }
     footer {
         display: inline-block;
         text-align: center;
-        width: 500% !important;
-        margin-top: 100px;
-        padding-top: 30px;
-        padding-bottom: -1500px;
+        width: 400px !important;
+        margin-top: -50px;;
+        padding-top: 3px;
       } 
     footer h2 {
-     font-size: 50px !important;
-     margin-right: 350px;
+     font-size: 30px !important;
+     margin-right: 30px;
       
     }
     footer h3 {
-      margin-right: 350px;
+      margin-right: 30px;
     }
         
         
