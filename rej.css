@@ -304,8 +304,7 @@ h2, h3 {
       background-color: red;
       display: flex;
       flex-flow: nowrap;
-      z-index: 2000;
-      position: relative;
+      
     
     }        
    .dot {
