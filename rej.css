@@ -296,6 +296,7 @@ h2, h3 {
     footer h2 {
      font-size: 30px !important;
      background-color: red;
+     text-decoration-style: solid;
      
     }
     footer h3 {
