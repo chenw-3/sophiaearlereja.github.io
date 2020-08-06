@@ -247,7 +247,7 @@ h2, h3 {
     nav ul {
         width: 400px;
         font-size: 15px;
-        padding-right: 70px !important;
+        padding-right: 50px !important;
         padding-top: 2.5px;
     }
     .headername h1 {
@@ -304,8 +304,6 @@ h2, h3 {
       background-color: red;
       display: flex;
       flex-flow: nowrap;
-      
-    
     }        
    .dot {
     display: none;
