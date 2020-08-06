@@ -231,7 +231,7 @@ h2, h3 {
 }
 @media screen and (max-width: 403px) {
     body {
-      height: 850px !important;
+      height: 950px !important;
       width: 400px !important;
       overflow: hidden;
 
@@ -287,18 +287,16 @@ h2, h3 {
     hr {
       width: 400px;
       margin-top: -250px;
-      margin-bottom: 100px;
     }
     footer {
-        
+     
     } 
     
     footer h2 {
      font-size: 30px !important;
      background-color: red;
-     text-decoration-style: solid;
-     
     }
+
     footer h3 {
       text-align: center;
       font-size: 20px;
@@ -307,7 +305,7 @@ h2, h3 {
       flex-flow: nowrap;
       z-index: 2000;
       position: relative;
-      height: 100px !important;
+    
     }        
    .dot {
     display: none;
