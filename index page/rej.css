@@ -1,3 +1,6 @@
+body {
+  overflow: hidden;
+}
 .header {
  height: 250px;
  width: 100%;
@@ -31,12 +34,14 @@ h1 {
     font-size: 60px;
     letter-spacing: 5px;
     word-spacing: 15px;
+    padding-left: 45px;
 }
 .slogan{
     font-family: 'Lobster', cursive;
     color: red;
     font-size: 50px;  
     line-height: 10px; 
+    padding-left: 30px;
 }
 
 body {
@@ -90,8 +95,6 @@ color: red;
   margin-top: -22px;
   padding: 16px;
   color: white;
-  font-weight: bold; 
-  font-size: 18px;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
 }
@@ -126,7 +129,7 @@ figcaption {
   bottom: 8px;
   width: 30%;
   text-align: center;
-  left: 350px;
+  left: 220px;
 }
 
 /* The dots/bullets/indicators */
