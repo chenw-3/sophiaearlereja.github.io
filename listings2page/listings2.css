@@ -1,7 +1,6 @@
  * {
   margin: 0;
   padding: 0;
-  overflow: scroll;
 }
 .logo {
   text-align: center;
@@ -9,9 +8,8 @@
 }
 
 body {
-   background-color: khaki;
-   text-align: center;
-   
+     background-color: khaki;
+	 text-align: center;
 }
 nav {
 	padding: 20px;
@@ -113,6 +111,9 @@ p {
 @media screen and (max-width: 403px) {
   .column {
     width: 50%;
+  }
+  .watson {
+    width: 95% !important;
   }
 }
 .button {
