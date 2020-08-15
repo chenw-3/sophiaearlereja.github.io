@@ -107,13 +107,19 @@ p {
   .column {
     width: 100%;
   }
+  
 }
 
 @media screen and (max-width: 403px) {
   .column {
     width: 50%;
   }
-
+  body {
+    width: 403px;
+  }
+  nav {
+    width: 403px;
+  }
 }
 
 .button {
