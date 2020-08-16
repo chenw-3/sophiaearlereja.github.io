@@ -110,14 +110,18 @@ p {
   
 }
 
-@media screen and (max-width: 403px) {
+@media screen and (max-width: 400px) {
   .column {
     width: 50%;
   }
   body {
     width: 403px;
+    overflow: hidden;
   }
   nav {
+    width: 403px;
+  }
+  .header {
     width: 403px;
   }
 }
