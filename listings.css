@@ -25,6 +25,7 @@ nav ul li {
 	list-style-type: none;
   flex-flow: wrap;
   line-height: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 nav a {
@@ -93,6 +94,7 @@ p {
   background-color:#9C0204;
   padding: 10px;
   border-radius: 10%;
+  line-height: 25px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */

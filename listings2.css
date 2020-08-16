@@ -92,6 +92,7 @@ p {
   background-color:#9C0204;
   padding: 8px;
   border-radius: 10%;
+  line-height: 25px;
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
@@ -112,10 +113,9 @@ p {
   .column {
     width: 50%;
   }
-  .watson {
-    width: 95% !important;
+  .content {
+    width: 100% !important;
   }
-}
 .button {
   background-color: green;
   border: none;
