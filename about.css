@@ -1,52 +1,62 @@
-* {
-  margin: 0;
-  padding: 0;
+.header {
+ background-color: #ffffff;
+ opacity: 100%;
 }
 .logo {
-  text-align: center;
-  display: inline;
+  float: center;
+  clear: right;
+  width: 180px;
+  margin-top: 2px;
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  overflow: hidden;
 }
-body {
-   width: 100%;
-   background-color: khaki;
-	 text-align: center;
+
+.logo:hover {
+  transform: scale(0.95);
 }
-header {
-  background: red;
-  margin: 0px;
-}
+
 .navbar {
-  position: fixed;
-  top: 0;
+  width: 100%;
 }
 nav {
-	background-color: goldenrod;
-	text-align: center;
-  padding: 20px;
+  padding: 5px;
+	background-color: #B3365B;
 	line-height: 2px;
 	word-spacing: 50px;
   font-size: 20px;
-  display: block;
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: -3px;
 }
-
-nav ul li {
-	display: inline-flex;
+nav ul {
+	display: flex;
 	list-style-type: none;
-  flex-flow: nowrap;
-  line-height: 20px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+nav li {
+  text-align: center;
 }
 
 nav a {
-	padding: 0.25em;
-	color: ivory;
+	padding: 10px;
+	color:#ffffff;
 	font-weight: bold;
 	text-decoration: none;
+  text-align: center;
 }
 
 nav a:hover {
-  color: red;
+color: #B3365B;
+background-color: lightgray;
+padding: 10px;
 }
 
+body {
+   background-color: #B3365B;
+   text-align: center;
+}
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
@@ -58,36 +68,44 @@ h1 {
   clear: right;
   margin-top: 10px;
   margin-left: 10px;
-  padding-bottom: 10px;
   border-style: solid;
-  border-color: goldenrod;
+  border-color: #EBCACA;
   border-width: 10px;
 }
 
 figcaption {
   font-size: 20px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-left: 10px;
+  color: #B3365B;
+  background-color: #EBCACA;
+
 }
 
 footer {
-  background-color: red  ;
-  margin-top: 150px;
-  padding: 10px;
+  background-color:#EBCACA  ;
+  color:#B3365B;
+  margin-top: 40px;
+}
+
+footer ul li {
   color:ivory;
-  width: 100%;
+  list-style-type: none;
+}
+h2 {
+  font-size: 20px;
+  padding-left: -90px;
+}
+h3 {
+  font-size: 20px;
 }
 .fa {
-  padding: 10px;
-  font-size: 30px;
+  padding: 20px;
+  font-size: 0px;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 2px 2px;
+  margin: 3px 3px;
+  border-radius: 10%;
 }
 .fa-facebook {
   background: #3B5998;
@@ -102,6 +120,7 @@ footer {
   background: #125688;
   color: white;
 }
+
 
 @media screen and (max-width: 620px) {
   .logo {
