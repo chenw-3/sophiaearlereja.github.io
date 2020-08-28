@@ -35,7 +35,8 @@ nav ul {
     flex-flow: wrap;
     justify-content: center;
 }
-nav li {
+nav ul li {
+  list-style-type: none ;
   text-align: center;
 }
 
@@ -82,7 +83,7 @@ figcaption {
 }
 
 footer {
-  background-color:#EBCACA  ;
+  background-color:#EBCACA;
   color:#B3365B;
   margin-top: 40px;
 }
